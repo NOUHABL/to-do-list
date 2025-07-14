@@ -62,7 +62,7 @@ ul li{
     user-select: none;
     cursor: pointer;
 }
-ul li::before{
+ul li.unchecked::before{
     content: '';
     position: absolute;
     height: 28px;
